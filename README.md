@@ -44,18 +44,5 @@ It uses **Random Forest Regression** to provide accurate price estimations, and 
 
 Once the model is trained, you can **load and use it** in **`Model Usage.ipynb`** or a Python script.  
 
-```python
-import joblib
-import numpy as np
+![Screenshot 2025-03-20 215935](https://github.com/user-attachments/assets/bb0e035f-74af-42e4-952f-dfa6a3661dfd)
 
-# Load the trained model
-model = joblib.load("Dragon.joblib")
-
-# Sample input (ensure it has 13 features)
-features = np.array([[-5.439, 4.126, -1.616, -0.672, -1.422,
-                      -11.444, -49.312, 7.611, -26.001, -0.577,
-                      -0.974, 0.411, -66.860]])
-
-# Make prediction
-predicted_price = model.predict(features)
-print("Predicted House Price:", predicted_price[0])
