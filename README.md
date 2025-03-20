@@ -55,22 +55,25 @@ House-Price-Predictor-ML/
 
 Once the model is trained, you can **load and use it** in **`Model Usage.ipynb`** or a Python script.  
 
-## 🤔 What Does RandomForestRegressor() Indicate?
+---
 
-When we print the loaded model, it shows:
+## 🤔 What Does `RandomForestRegressor()` Indicate?  
 
-**RandomForestRegressor()**
+When we print the loaded model, it shows:  
 
-This output indicates that:
 
-✅ **The model is a Random Forest Regressor, an ensemble learning method.**
-✅ **It consists of multiple decision trees trained on different parts of the dataset.**
-✅ **It averages predictions from all trees, reducing overfitting and improving accuracy.**
+This output indicates that:  
 
-## 🔍 Making Predictions
+✅ **The model is a Random Forest Regressor, an ensemble learning method.**  
+✅ **It consists of multiple decision trees trained on different parts of the dataset.**  
+✅ **It averages predictions from all trees, reducing overfitting and improving accuracy.**  
 
-Now that we have loaded our trained model, we can make predictions on new data.
+---
 
-![Screenshot 2025-03-20 215935](https://github.com/user-attachments/assets/46f5c42b-ed9b-4113-a4e0-dfc14bed016d)
+## 🔍 Making Predictions  
+
+Now that we have loaded our trained model, we can make predictions on new data.  
+
+![Screenshot](https://github.com/user-attachments/assets/46f5c42b-ed9b-4113-a4e0-dfc14bed016d)
 
 
