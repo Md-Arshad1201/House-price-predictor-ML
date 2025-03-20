@@ -44,5 +44,22 @@ It uses **Random Forest Regression** to provide accurate price estimations, and 
 
 Once the model is trained, you can **load and use it** in **`Model Usage.ipynb`** or a Python script.  
 
-![Screenshot 2025-03-20 215935](https://github.com/user-attachments/assets/bb0e035f-74af-42e4-952f-dfa6a3661dfd)
+## 🤔 What Does RandomForestRegressor() Indicate?
+
+When we print the loaded model, it shows:
+
+**RandomForestRegressor()**
+
+This output indicates that:
+
+✅ **The model is a Random Forest Regressor, an ensemble learning method.**
+✅ **It consists of multiple decision trees trained on different parts of the dataset.**
+✅ **It averages predictions from all trees, reducing overfitting and improving accuracy.**
+
+## 🔍 Making Predictions
+
+Now that we have loaded our trained model, we can make predictions on new data.
+
+![Screenshot 2025-03-20 215935](https://github.com/user-attachments/assets/46f5c42b-ed9b-4113-a4e0-dfc14bed016d)
+
 
