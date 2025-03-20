@@ -21,7 +21,10 @@ House-Price-Predictor-ML/
 
 ---
 
-## 🔍 Key Features  
+
+---
+
+## 🔍 Key Features
 
 ✅ **Data Preprocessing** – Handling missing values, feature scaling, and categorical encoding.  
 ✅ **Exploratory Data Analysis (EDA)** – Insights into the dataset using visualization tools.  
@@ -31,7 +34,7 @@ House-Price-Predictor-ML/
 
 ---
 
-## 🛠️ Technologies & Tools Used  
+## 🛠️ Technologies & Tools Used
 
 - **Programming Language:** Python 🐍  
 - **Libraries & Frameworks:**  
@@ -43,7 +46,7 @@ House-Price-Predictor-ML/
 
 ---
 
-## 🚀 How to Train the Model  
+## 🚀 How to Train the Model
 
 1️⃣ **Open Jupyter Notebook**  
 2️⃣ **Run `Dragon Real Estates.ipynb`**  
@@ -51,29 +54,17 @@ House-Price-Predictor-ML/
 
 ---
 
-## 🎯 How to Use the Trained Model  
+## 🎯 How to Use the Trained Model
 
 Once the model is trained, you can **load and use it** in **`Model Usage.ipynb`** or a Python script.  
 
 ---
 
-## 🤔 What Does `RandomForestRegressor()` Indicate?  
+
+
+## 🤔 What Does `RandomForestRegressor()` Indicate?
 
 When we print the loaded model, it shows:  
 
-
-This output indicates that:  
-
-✅ **The model is a Random Forest Regressor, an ensemble learning method.**  
-✅ **It consists of multiple decision trees trained on different parts of the dataset.**  
-✅ **It averages predictions from all trees, reducing overfitting and improving accuracy.**  
-
----
-
-## 🔍 Making Predictions  
-
-Now that we have loaded our trained model, we can make predictions on new data.  
-
-![Screenshot](https://github.com/user-attachments/assets/46f5c42b-ed9b-4113-a4e0-dfc14bed016d)
-
-
+```python
+RandomForestRegressor()
