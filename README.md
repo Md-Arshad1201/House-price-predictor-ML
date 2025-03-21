@@ -58,13 +58,4 @@ House-Price-Predictor-ML/
 
 Once the model is trained, you can **load and use it** in **`Model Usage.ipynb`** or a Python script.  
 
----
-
-
-
-## 🤔 What Does `RandomForestRegressor()` Indicate?
-
-When we print the loaded model, it shows:  
-
-```python
-RandomForestRegressor()
+-
