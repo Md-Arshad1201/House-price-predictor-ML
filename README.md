@@ -50,7 +50,8 @@ ________________________________________________________________________________
 ## **Tools:** Jupyter Notebook, GitHub
 
 
-##🚀 **How to Train the Model**
+## 🚀 **How to Train the Model**
+
 **1️⃣ Open Jupyter Notebook**
 
 **2️⃣ Run Dragon Real Estates.ipynb**
