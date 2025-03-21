@@ -23,7 +23,11 @@ House-Price-Predictor-ML/
 
 ✅ **Data Preprocessing – Handling missing values, feature scaling, and categorical encoding.**
 
-**✅ Exploratory Data Analysis (EDA) – Insights into the dataset using visualization tools.
-**✅ Machine Learning Model – Implemented Random Forest Regression for price prediction.
-**✅ Model Persistence – The trained model is saved as Dragon.joblib for future use.
-**✅ Jupyter Notebook Execution – Well-structured code for step-by-step execution.
+✅ **Exploratory Data Analysis (EDA) – Insights into the dataset using visualization tools.**
+
+✅ **Machine Learning Model – Implemented Random Forest Regression for price prediction.**
+
+✅ **Model Persistence – The trained model is saved as Dragon.joblib for future use.**
+
+✅ **Jupyter Notebook Execution – Well-structured code for step-by-step execution.**
+
