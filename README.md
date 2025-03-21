@@ -47,4 +47,4 @@ $$**Libraries & Frameworks:**
 
 **Joblib – Model saving & loading**
 
-## **Tools: Jupyter Notebook, GitHub**
+## **Tools:** Jupyter Notebook, GitHub
