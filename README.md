@@ -38,7 +38,7 @@ ________________________________________________________________________________
 **Programming Language: Python 🐍**
 
 $$**Libraries & Frameworks:**
-
+    ----------------------
 **Pandas, NumPy – Data manipulation**
 
 **Scikit-Learn – Machine learning model**
@@ -48,3 +48,12 @@ $$**Libraries & Frameworks:**
 **Joblib – Model saving & loading**
 
 ## **Tools:** Jupyter Notebook, GitHub
+
+
+##🚀 **How to Train the Model**
+**1️⃣ Open Jupyter Notebook**
+**2️⃣ Run Dragon Real Estates.ipynb**
+
+**The trained model will be saved as Dragon.joblib**
+
+
