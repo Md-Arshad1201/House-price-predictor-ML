@@ -37,8 +37,8 @@ ________________________________________________________________________________
 
 **Programming Language: Python 🐍**
 
-$$**Libraries & Frameworks:**
-    ----------------------
+## **Libraries & Frameworks:**
+ 
 **Pandas, NumPy – Data manipulation**
 
 **Scikit-Learn – Machine learning model**
@@ -52,8 +52,17 @@ $$**Libraries & Frameworks:**
 
 ##🚀 **How to Train the Model**
 **1️⃣ Open Jupyter Notebook**
+
 **2️⃣ Run Dragon Real Estates.ipynb**
 
 **The trained model will be saved as Dragon.joblib**
 
+## **Loading the Model**
 
+```plaintext
+import joblib
+
+# Load the trained model
+model = joblib.load("Dragon.joblib")
+print(model)  # Output: RandomForestRegressor()
+```
