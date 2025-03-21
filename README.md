@@ -66,3 +66,52 @@ import joblib
 model = joblib.load("Dragon.joblib")
 print(model)  # Output: RandomForestRegressor()
 ```
+
+**The output RandomForestRegressor() indicates that the Dragon.joblib file contains a trained Random Forest Regressor model.**
+
+## **Predicting House Prices**
+
+**You can use the trained model to predict house prices by providing input features.**
+
+**Below are examples of how to use the model:**
+
+**Example 1: Predicting Using a Sample from the Dataset**
+
+```plaintext
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv("data.csv")
+
+# Drop the target column (MEDV) to get only input features
+X = df.drop(columns=["MEDV"])
+
+# Select the first row for testing
+sample_data = [X.iloc[0].values]  
+
+# Predict the house price
+predicted_price = model.predict(sample_data)
+print("Predicted House Price:", predicted_price[0])
+```
+
+**Output:**
+```plaintext
+Predicted House Price: 23.051999999999992
+```
+
+**Example 2: Predicting with Custom Input**
+```plaintext
+import numpy as np
+
+# Example input features
+features = np.array([[-5.439, 4.126, -1.616, -0.672, -1.422,-11.444, -49.312, 7.611, -26.001, -0.577,-0.974, 0.411, -66.860]])  
+
+# Predict the house price
+predicted_price = model.predict(features)
+print("Predicted House Price:", predicted_price[0])
+```
+
+**Output:**
+```plaintext
+Predicted House Price: 24.571999999999992
+```
