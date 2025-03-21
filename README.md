@@ -19,7 +19,7 @@ House-Price-Predictor-ML/
 │── .gitignore                    # Ignores unnecessary files
 └── requirements.txt             # Required dependencies
 ```
-
+_____________________________________________________________________________________________________________________________________________________________________________________________
  ## 🔍 **Key Features**
 
 ✅ **Data Preprocessing – Handling missing values, feature scaling, and categorical encoding.**
@@ -32,3 +32,19 @@ House-Price-Predictor-ML/
 
 ✅ **Jupyter Notebook Execution – Well-structured code for step-by-step execution.**
 
+______________________________________________________________________________________________________________________________________________________________________________________________
+## 🛠️ **Technologies & Tools Used**
+
+**Programming Language: Python 🐍**
+
+$$**Libraries & Frameworks:**
+
+**Pandas, NumPy – Data manipulation**
+
+**Scikit-Learn – Machine learning model**
+
+**Matplotlib, Seaborn – Data visualization**
+
+**Joblib – Model saving & loading**
+
+## **Tools: Jupyter Notebook, GitHub**
