@@ -18,8 +18,8 @@ House-Price-Predictor-ML/
 │── README.md                    # Project documentation
 │── .gitignore                    # Ignores unnecessary files
 └── requirements.txt             # Required dependencies
-
-## 🔍 **Key Features**
+```
+ ## 🔍 **Key Features**
 
 **✅ Data Preprocessing – Handling missing values, feature scaling, and categorical encoding.
 **✅ Exploratory Data Analysis (EDA) – Insights into the dataset using visualization tools.
