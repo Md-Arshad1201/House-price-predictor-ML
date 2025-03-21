@@ -19,7 +19,7 @@ House-Price-Predictor-ML/
 │── .gitignore                    # Ignores unnecessary files
 └── requirements.txt             # Required dependencies
 ```
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
+
  ## 🔍 **Key Features**
 
 ✅ **Data Preprocessing – Handling missing values, feature scaling, and categorical encoding.**
